@@ -13,6 +13,6 @@ public class loginTest extends base {
 	public void verify_login_with_valid_credential() {
 		loginP = new loginPage(driver);
 		loginP.login("Admin", "admin123");
-		System.out.println("user successfully logged in ;");
+		System.out.println("user successfully logged in application with valid credential");
 	}
 }
